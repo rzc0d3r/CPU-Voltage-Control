@@ -12,6 +12,22 @@ Tool for Android smartphones to control the CPU voltage from mediatek (Under/Ove
 
 4. Done! Now navigate through the menu by entering numbers using the prompts in the console
 
+# Screenshots
+
+![Main Menu](img/Main_Menu.jpg)
+
+![Undervolting Little Cores](img/Undervolting_Little_Cores.jpg)
+
+![Result (Undervolting Little Cores)](img/Result(Undervolting_Little_Cores).jpg)
+
+![Result (Undervolting All Sections)](img/Result(Undervolting_All_Sections).jpg)
+
+![Reset Offsets](img/Reset_Offsets.jpg)
+
+![Result (Reset Offsets)](img/Result(Reset_Offsets).jpg)
+
+![Overvoltage Menu](img/Overvoltage_Menu.jpg)
+
 # Recommendations and information
 
 1. Successfully tested on processors: mt6769t (Helio G80), mt6769z (Helio G85)
