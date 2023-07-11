@@ -14,6 +14,8 @@ Tool for Android smartphones to control the CPU voltage from mediatek (Under/Ove
 
 # Screenshots
 
+![Dynamic Menu Generation](img/Dynamic_Menu_Generation_Log.jpg)
+
 ![Main Menu](img/Main_Menu.jpg)
 
 ![Undervolting Little Cores](img/Undervolting_Little_Cores.jpg)
