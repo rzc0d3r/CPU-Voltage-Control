@@ -1,4 +1,4 @@
-# version 1.4 (11.07.2023)
+# version 1.4.1 (01.08.2023)
 from subprocess import check_output, PIPE
 from os import system
 
@@ -34,12 +34,14 @@ little = '/proc/eem/EEM_DET_L/eem_offset'
 big = '/proc/eem/EEM_DET_B/eem_offset'
 cci = '/proc/eem/EEM_DET_CCI/eem_offset'
 gpu = '/proc/eem/EEM_DET_GPU/eem_offset'
+bl = '/proc/eem/EEM_DET_BL/eem_offset'
 
 available_offsets = [
     ('Little Cores', little),
     ('Big Cores', big),
     ('CPU Cache', cci),
-    ('GPU', gpu)
+    ('GPU', gpu),
+    ('BL', bl)
 ]
 supported_offsets = []
 
@@ -91,7 +93,7 @@ input('\nPress Enter to continue...')
 		
 while True:
     system('clear')
-    print('Mediatek Voltage Control v1.4 by rzc0d3r')
+    print('Mediatek Voltage Control v1.4.1 by rzc0d3r')
     print('    1 - Undervoltage (Safe)')
     print('    2 - Unlock Overvoltage (Warning!!!)')
     print('    3 - Current Offsets')
@@ -99,9 +101,9 @@ while True:
     print('    5 - Exit')
     index = input('>>> ').strip()
     if index == '1':
-        menu('Mediatek Voltage Control v1.4 [Undervolt]', supported_offsets, -50, 0)
+        menu('Mediatek Voltage Control v1.4.1 [Undervolt]', supported_offsets, -50, 0)
     elif index == '2':
-        menu('Mediatek Voltage Control v1.4 [OVERVOLT!!!]', supported_offsets, 0, 50)
+        menu('Mediatek Voltage Control v1.4.1 [OVERVOLT!!!]', supported_offsets, 0, 50)
     elif index == '3':
         print()
         volt_offsets(supported_offsets)
