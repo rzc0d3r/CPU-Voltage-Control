@@ -14,21 +14,26 @@ Tool for Android smartphones to control the CPU voltage from mediatek (Under/Ove
 
 # Screenshots
 
-![Dynamic Menu Generation](img/Dynamic_Menu_Generation_Log.jpg)
+### Main Menu
+![Main Menu](img/main_menu.jpg)
 
-![Main Menu](img/Main_Menu.jpg)
+### Undervoltage Menu
 
-![Undervolting Little Cores](img/Undervolting_Little_Cores.jpg)
+![Undervoltage Menu](img/undervoltage_menu.jpg)
 
-![Result (Undervolting Little Cores)](img/Result(Undervolting_Little_Cores).jpg)
+![Undervoltage Menu Input](img/undervoltage_menu_input.jpg)
 
-![Result (Undervolting All Sections)](img/Result(Undervolting_All_Sections).jpg)
+![Undervolting_Result](img/undervoltage_result.jpg)
 
-![Reset Offsets](img/Reset_Offsets.jpg)
+### Overvoltage Menu
+![Overvoltage Menu](img/overvoltage_menu.jpg)
 
-![Result (Reset Offsets)](img/Result(Reset_Offsets).jpg)
+![Overvoltage Menu Input](img/overvoltage_menu_input.jpg)
 
-![Overvoltage Menu](img/Overvoltage_Menu.jpg)
+![Overvolting_Result](img/overvoltage_result.jpg)
+
+### Reset Function
+![Reset Result](img/reset_result.jpg)
 
 # Recommendations and information
 
