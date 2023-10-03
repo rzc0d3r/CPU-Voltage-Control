@@ -1,4 +1,4 @@
-# Mediatek Voltage Control
+# CPU Voltage Control
 
 Tool for Android smartphones to control the CPU voltage from mediatek (Under/Over volting)
 
@@ -37,4 +37,3 @@ Tool for Android smartphones to control the CPU voltage from mediatek (Under/Ove
 2. If you specify low values, the phone may freeze completely. Just do an emergency reboot.
 
 3. I do not recommend the use of higher voltage of course if you do not want to kill the phone :)
-
