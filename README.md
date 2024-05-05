@@ -2,6 +2,10 @@
 
 Tool for Android smartphones to control the CPU voltage from mediatek (Under/Over volting)
 
+---
+## Support and development of this repository will be stopped since I lost root privileges on my test phone.
+---
+
 # How to use
 
 1. You need a rooted device!
